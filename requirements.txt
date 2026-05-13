@@ -1,0 +1,26 @@
+# PyForAGNfit - Requirements
+# ===========================
+# Python >= 3.6.9
+# OS: Linux Mint or Ubuntu = 20.04 (other distributions not tested)
+
+# -------------------------------------
+# Install Python dependencies with pip:
+#   pip install -r requirements.txt
+# -------------------------------------
+
+PyQt5
+seaborn
+
+# -------------------------------------
+# Standard library modules (included with Python, no install needed):
+#   os, subprocess, sys, shutil, json, csv
+# -------------------------------------
+
+# -------------------------------------
+# System dependencies (install via apt):
+#   sudo apt install gfortran-7 xfce4-terminal xdotool
+#
+# IMPORTANT: Fortran 7.5 specifically is required.
+# Other versions may cause errors.
+# Check your version with: gfortran --version
+# -------------------------------------

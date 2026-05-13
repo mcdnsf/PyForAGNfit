@@ -1,0 +1,479 @@
+# ZTF20aaglfpy
+5000	             # 1 # iter max MCMC, integer format
+10                   # 2 # ile accuracy_loop
+inter_696_mod.dat                    # 3 # Spectrum file name
+2916                               # 4 # Spectrum data size
+fitting_results_full_696.dat                 # 5 # Output file
+fitting_data_full_696.dat                   # 6 # Output file, todos los modelos
+fitting_err_full_696.dat                  # 7 # Error output file 
+0.012                           # 8 # redshift
+0				 # 9 # i1
+0				 # 10 # i2, 0 = lorentz, 1= gauss
+1.55        		         # 11 # norm Powerlaw 
+0.05                              # 12 # step norm powerlaw
+-1.67				 # 13 # slope1
+0.05				 # 14 # step slope1
+-1.8				 # 15 # slope2
+0.05				 # 16 # step slope1
+6000.				 # 17 # wave_break_powerlaw
+50.				 # 18 # step_wave_break
+mdqsofit.dat                        # 19 # UV FeII template file
+2916                               # 20 # size UV FeII template, integer format
+0.5                           # 21 # norm UV fe2 template
+0.05                             # 22 # coef norm UV fe2 template
+600.                               # 23 # UV fe2 width
+40.1                               # 24 # coef UV fe2 width
+0.0001                               # 25 # UV fe2 shift
+1E-6                               # 26 # coef UV fe2 shift
+20.8814                         # 27 # flux_CII]_2326.44
+2.0650                         # 28 # coef_flux_CII]
+3061.2                           # 29 # width CII]
+50.1                            # 30 # coef width CII]
+0.0001                           # 31 # shift CII]
+1E-5                             # 32 # coef shift 
+25.399                         # 33 # flux_[NIV] 2423.83
+2.50408650                         # 34 # coef_[NIV] 
+3061.2                           # 35 # width [NIV] 
+10.01                            # 36 # coef width [NIV]
+0.0001                           # 37 # shift [NIV]
+1E-5                             # 38 # coef shift [NIV]
+1.49                         # 39 # flux_[OII] 2471.03
+0.1055650                         # 40 # coef_[OII] 
+3061.2                           # 41 # width [OII] 
+30.1                            # 42 # coef width [OII] 
+0.0001                           # 43 # shift [OII] 
+1E-5                             # 44 # coef shift 
+40.7020                      # 45 # flux_AlII] 2669.95
+4.00858650                         # 46 # coef_flux_AlII]
+3061.2                           # 47 # width 
+50.1                            # 48 # coef width 
+0.0001                           # 49 # shift 
+1E-5                             # 50 # coef shift 
+1.967000                         # 51 # flux_OIII 2672.04
+0.10010                         # 52 # coef 
+2398.0                           # 53 # width
+50.01                            # 54 # coef width
+0.0001                           # 55 # shift
+1E-5                             # 56 # coef shift 
+1200.92                         # 57 # flux_ MgII A
+10.0007650                         # 58 # coef_flux
+3302.98                           # 59 # width  
+30.0001                            # 60 # coef width 
+0.0001                           # 61 # shift 
+1.36E-4                             # 62 # coef shift 
+1200.000000                         # 63 # flux_ MgII B
+0.88650                         # 64 # coef_flu
+5001.2                           # 65 # width  
+50.01                            # 66 # coef width 
+0.0001                           # 67 # shift 
+1E-5                             # 68 # coef shift 
+70.260000                         # 69 # flux_OIII 3133.70
+7.008650                         # 70 # coef_flux
+3061.2                           # 71 # width  
+100.100                            # 72 # coef width 
+0.0001                           # 73 # shift 
+1E-5                             # 74 # coef shift 
+80.260                         # 75 # flux_ HeI 3188.67
+0.80288650                         # 76 # coef_flux
+7999.2                           # 77 # width  
+100.1                            # 78 # coef width 
+0.0001                           # 79 # shift 
+1E-5                             # 80 # coef shift 
+20.7847                         # 81 # flux_ [N V] 3346.82
+2.005802650                         # 82 # coef_flux
+3061.2                           # 83 # width  
+30.1                            # 84 # coef width 
+0.0001                           # 85 # shift 
+1E-5                             # 86 # coef shift 
+70.33                         # 87 # flux_ [N V] 3426.84
+7.008650                         # 88 # coef_flux
+2861.2                           # 89 # width  
+20.001                            # 90 # coef width 
+0.0001                           # 91 # shift 
+1E-5                             # 92 # coef shift 
+10.7842                         # 93 # flux_ [FeII] 3587.34
+1.0050650                         # 94 # coef_flux
+3061.2                           # 95 # width  
+30.1                            # 96 # coef width 
+0.0001                           # 97 # shift 
+1E-5                             # 98 # coef shift 
+0.002914                         # 99 # flux_HeI 3588.30
+0.00588650                         # 100 # coef_flux
+3061.2                           # 101 # width  
+30.1                            # 102 # coef width 
+0.0001                           # 103 # shift 
+1E-5                             # 104 # coef shift 
+30.24872                        # 105 # flux_[OII] 3728.48
+3.3008650                         # 106 # coef_flux
+3061.2                           # 107 # width  
+30.1                            # 108 # coef width 
+0.0001                           # 109 # shift 
+1E-5                             # 110 # coef shift 
+20.180000                         # 111 # flux_[FeVII] 3759.99
+2.0088650                         # 112 # coef_flux
+3061.2                           # 113 # width  
+30.1                            # 114 # coef width 
+0.0001                           # 115 # shift 
+1E-5                             # 116 # coef shift 
+10.49                            # 117 # flux_ [Ne III] 3869.85
+1.58650                         # 118 # coef_flux
+3061.2                           # 119 # width  
+30.1                            # 120 # coef width 
+0.0001                           # 121 # shift 
+1E-5                             # 122 # coef shift 
+0.1200000                         # 123 # flux HeI 3889.74
+0.0150                         # 124 # coef_flux
+3061.2                           # 125 # width  
+30.1                            # 126 # coef width 
+0.0001                           # 127 # shift 
+1E-5                             # 128 # coef shift 
+0.016010000                         # 129 # flux_H8
+0.00150                         # 130 # coef_flux
+3061.2                           # 131 # width  
+30.1                            # 132 # coef width 
+0.0001                           # 133 # shift 
+1E-5                             # 134 # coef shift 
+5.3                           # 135 # flux_[Ne III] 3968.58
+0.503650                         # 136 # coef_flux
+3061.2                           # 137 # width  
+30.1                            # 138 # coef width 
+0.0001                           # 139 # shift 
+1E-5                             # 140 # coef shift 
+45.694                            # 141 # flux_ H epsilon
+4.00038650                         # 142 # coef_flux
+3061.2                           # 143 # width  
+30.1                            # 144 # coef width 
+0.0001                           # 145 # shift 
+1E-5                             # 146 # coef shift 
+0.940000                         # 147 # flux_[Fe V] 4072.39
+0.090151650                         # 148 # coef_flux
+3061.2                           # 149 # width  
+30.1                            # 150 # coef width 
+0.0001                           # 151 # shift 
+1E-5                             # 152 # coef shift 
+1.800000                         # 153 # flux_[SII] 4073.63
+0.18488650                         # 154 # coef_flux
+3061.2                           # 155 # width  
+30.1                            # 156 # coef width 
+0.0001                           # 157 # shift 
+1E-5                             # 158 # coef shift 
+60.420000                         # 159 # flux_  Hdelta
+6.088650                         # 160 # coef_flux
+3061.2                           # 161 # width  
+30.1                            # 162 # coef width 
+0.0001                           # 163 # shift 
+1E-5                             # 164 # coef shift 
+1.2600                         # 165 # flux_Hdelta NC 
+0.418650                         # 166 # coef_flux
+3061.2                           # 167 # width  
+30.1                            # 168 # coef width 
+0.0001                           # 169 # shift 
+1E-5                             # 170 # coef shift 
+30.0                         # 171 # flux_ Hgamma
+1.5                         # 172 # coef_flux
+3061.2                           # 173 # width  
+30.1                            # 174 # coef width 
+0.001                           # 175 # shift 
+1E-5                             # 176 # coef shift 
+5.0                             # 177 # flux_Hgamma NC 
+1.0                               # 178 # coef_flux
+3061.2                           # 179 # width  
+30.1                            # 180 # coef width 
+0.0001                           # 181 # shift 
+1E-5                             # 182 # coef shift 
+2.0                        # 183 # flux_[OIII]4363NC
+0.1                       # 184 # coef_flux
+3061.2                           # 185 # width  
+30.1                            # 186 # coef width 
+0.0001                           # 187 # shift 
+1E-5                             # 188 # coef shift 
+1.0                         # 189 # flux_HeI 4472
+0.1                         # 190 # coef_flux
+3061.2                           # 191 # width  
+30.1                            # 192 # coef width 
+0.0001                           # 193 # shift 
+1E-5                             # 194 # coef shift 
+20.0                         # 195 # flux_HeII4685 
+1.0                          # 196 # coef_flux
+1500.2                           # 197 # width  
+100.001                            # 198 # coef width 
+0.0001                           # 199 # shift 
+1E-5                             # 200 # coef shift 
+10.9900000                         # 201 # flux_HeII4685NC 
+1.10018650                         # 202 # coef_flux
+300.2                           # 203 # width  
+30.1                            # 204 # coef width 
+0.0001                           # 205 # shift 
+1E-5                             # 206 # coef shift 
+30.0                          # 207 # flux_Hbeta BC. anajis
+3.                                # 209 # coef_flux anajis, colocarle el 10% de el flux
+3500.2                           # 209 # width  
+300.                           # 210 # coef width 
+-0.0001                           # 211 # shift 
+1E-5                             # 212 # coef shift 
+10.0                            # 213 # flux Hbeta NC 
+1.0                              # 214 # coef_flux
+506.2                           # 215 # width  
+30.1                            # 216 # coef width 
+0.0001                           # 217 # shift 
+1E-5                             # 218 # coef shift 
+30.0                       # 219 # flux__OIII5007NC 
+3.0                         # 220 # coef_flux
+100.2                           # 221 # width  
+5.10                            # 222 # coef width 
+0.0001                           # 223 # shift 
+1E-5                             # 224 # coef shift 
+10.0                             # 225 # flux_OIII4959NC 
+0.5                              # 226 # coef_flux
+3061.2                           # 227 # width  
+306.1                            # 228 # coef width 
+0.0001                           # 229 # shift 
+1E-5                             # 230 # coef shift 
+5.010000                         # 231 # flux_FeVII5160
+0.18650                         # 232 # coef_flux
+3061.2                           # 233 # width  
+30.1                            # 234 # coef width 
+0.0001                           # 235 # shift 
+1E-5                             # 236 # coef shift 
+5.520000                         # 237 # flux_FeVI5177
+0.5288650                         # 238 # coef_flux
+3061.2                           # 239 # width  
+30.1                            # 240 # coef width 
+0.0001                           # 241 # shift 
+1E-5                             # 242 # coef shift 
+10.370000                         # 243 # flux_[NI]5200NC 
+1.00688650                         # 244 # coef_flux
+3061.2                           # 245 # width  
+30.1                            # 246 # coef width 
+0.0001                           # 247 # shift 
+1E-5                             # 248 # coef shift 
+15.070000                         # 249 # flux_HeII5875 
+1.588650                         # 250 # coef_flux
+2061.2                           # 251 # width  
+30.1                            # 252 # coef width 
+0.0001                           # 253 # shift 
+1E-5                             # 254 # coef shift 
+0.000000                         # 255 # flux_HeII5875NC 
+0.488650                         # 256 # coef_flux
+3061.2                           # 257 # width  
+306.1                            # 258 # coef width 
+0.0001                           # 259 # shift 
+1E-5                             # 260 # coef shift 
+0.000000                         # 261 # flux_[FeVII]6086NC 
+0.88650                         # 262 # coef_flux
+3061.2                           # 263 # width  
+306.1                            # 264 # coef width 
+0.0001                           # 265 # shift 
+1E-5                             # 266 # coef shift 
+5.000000                         # 267 # flux_ [OI]6300NC 
+0.288650                         # 268 # coef_flux
+301.2                           # 269 # width  
+306.1                            # 270 # coef width 
+0.0001                           # 271 # shift 
+1E-5                             # 272 # coef shift 
+50.000000                         # 273 # flux_ [OI]6365NC 
+1.288650                         # 274 # coef_flux
+3061.2                           # 275 # width  
+306.1                            # 276 # coef width 
+0.0001                           # 277 # shift 
+1E-5                             # 278 # coef shift 
+50.000000                         # 279 # flux_[NII]6548NC 
+1.288650                         # 280 # coef_flux
+3061.2                           # 281 # width  
+306.1                            # 282 # coef width 
+0.0001                           # 283 # shift 
+1E-5                             # 284 # coef shift 
+50.000000                         # 285 # flux_[NII]6583NC 
+1.288650                         # 286 # coef_flux
+3061.2                           # 287 # width  
+306.1                            # 288 # coef width 
+0.0001                           # 289 # shift 
+1E-5                             # 290 # coef shift 
+50.0                         # 291 # flux_Halpha BC
+2.5                             # 292 # coef_flux
+1561.2                           # 293 # width  
+306.1                            # 294 # coef width 
+0.0001                           # 295 # shift 
+1E-5                             # 296 # coef shift 
+80.0                         # 297 # flux_Halpha NC
+8.0                            # 298 # coef_flux
+100.2                           # 299 # width  
+30.1                            # 300 # coef width 
+0.0001                           # 301 # shift 
+1E-5                             # 302 # coef shift 
+0.000000                         # 303 # flux_ [SII]6717NC 
+1.288650                         # 304 # coef_flux
+3061.2                           # 305 # width  
+306.1                            # 306 # coef width 
+0.0001                           # 307 # shift 
+1E-5                             # 308 # coef shift 
+0.000000                         # 309 # flux_[SII]6731NC 
+1.288650                         # 310 # coef_flux
+3061.2                           # 311 # width  
+306.1                            # 312 # coef width 
+0.0001                           # 313 # shift 
+1E-5                             # 314 # coef shift 
+0.000000                         # 315 # flux_MgII A extra
+0.001                         # 316 # coef_flux
+3061.2                           # 317 # width  
+306.1                            # 318 # coef width 
+0.0001                           # 319 # shift 
+1E-5                             # 320 # coef shift 
+0.000000                         # 321 # flux_MgII B
+0.0010                         # 322 # coef_flux
+3061.2                           # 323 # width  
+306.1                            # 324 # coef width 
+0.0001                           # 325 # shift 
+1E-5                             # 326 # coef shift 
+0.000000                         # 327 # flux_Hbeta_extra
+0.00150                         # 328 # coef_flux
+3061.2                           # 329 # width  
+306.1                            # 330 # coef width 
+0.0001                           # 331 # shift 
+1E-5                             # 332 # coef shift 
+0.000000                         # 333 # flux_Halpha extra
+0.00010                         # 334 # coef_flux
+8061.2                           # 335 # width  
+306.1                            # 336 # coef width 
+0.01                           # 337 # shift 
+1E-5                             # 338 # coef shift 
+0.000000                         # 339 # flux_[OIII]5007 SB
+0.001                         # 340 # coef_flux
+3061.2                           # 341 # width  
+106.1                            # 342 # coef width 
+-0.01                           # 343 # shift 
+1E-5                             # 344 # coef shift 
+0.000000                         # 345 # flux_[OIII]4959 SB
+0.001                        # 346 # coef_flux
+3061.2                           # 347 # width  
+306.1                            # 348 # coef width 
+0.0001                           # 349 # shift 
+1E-5                             # 350 # coef shift 
+0.000000                         # 351 # flux_ [SII]6717 SB
+0.0001                         # 352 # coef_flux
+3061.2                           # 353 # width  
+306.1                            # 354 # coef width 
+-0.01                           # 355 # shift 
+1E-5                             # 356 # coef shift 
+0.000000                         # 357 # flux_ [SII]6732 SB
+0.001                         # 358 # coef_flux
+3061.2                           # 359 # width  
+306.1                            # 360 # coef width 
+0.0001                           # 361 # shift 
+1E-5                             # 362 # coef shift 
+fitting_output_err.csv           # 363 # Output file, csv format
+balcont.dat                # 364 # balmer continuum file
+2916				 # 365 # size balmer continuum file
+3.				 # 366 # flux balmer continuum 
+0.5				 # 367 # coef_flux balmer continuum 
+highbal.dat                      # 368 # High order Balmer lines file
+2916			         # 369 # size highbal file
+0.2				 # 370 # flux high order Balmer 
+0.02				 # 371 # coef_flux high order balmer
+3500.				 # 372 # fwhm high order balmer lines
+dqsofit_optm.dat                 # 373 # FeII_opt template file
+2916                             # 374 # size FeII_opt template, integer format
+3.0                            # 375 # norm fe2_opt template
+0.5                             # 376 # coef norm fe2_opt template
+50.0                              # 377 # flux_HeI7067.20
+0.1                             # 378 # coef_flux_HeI7067.20
+3061.2                           # 379 # width_HeI7067.20 
+306.1                            # 380 # coef width_HeI7067.20
+0.0001                           # 381 # shift_HeI7067.20
+1E-5                             # 382 # coef shift_HeI7067.20
+1.0                              # 383 # flux_ArIII7138
+50.288650                         # 384 # coef_flux_ArIII7138
+3061.2                           # 385 # width_ArIII7138 
+306.1                            # 386 # coef width_ArIII7138
+0.0001                           # 387 # shift_ArIII7138
+1E-5                             # 388 # coef shift_ArIII7138
+100.0                            # 389 # flux_OII7321
+0.288650                         # 390 # coef_flux_OII7321
+3061.2                           # 391 # width_OII7321
+306.1                            # 392 # coef width_OII7321
+0.0001                           # 393 # shift_OII7321
+1E-5                             # 394 # coef shift_OII7321
+100.0                            # 395 # flux_NiIII7892
+0.288650                         # 396 # coef_flux_NiIII7892
+3061.2                           # 397 # width_NiIII7892
+306.1                            # 398 # coef width_NiIII7892
+0.0001                           # 399 # shift_NiIII7892
+1E-5                             # 400 # coef shift_NiIII7892
+100.0                            # 401 # flux_FeXI7894
+0.288650                         # 402 # coef_flux_FeXI7894
+3061.2                           # 403 # width_FeXI7894
+306.1                            # 404 # coef width_FeXI7894
+0.0001                           # 405 # shift_FeXI7894
+1E-5                             # 406 # coef shift_FeXI7894
+0				 # 407 # encendido powerlaw
+0				 # 408 # encendido highbal
+1				 # 409 # encendido balcont
+0				 # 410 # encendido fe2_opt
+1				 # 411 # encendido fe2_uv
+1				 # 412 # encendido Hb BC
+1				 # 413 # encendido Hdelta BC
+1				 # 414 # encendido Hgamma BC
+1				 # 415 # encendido H8 BC
+1				 # 416 # encendido H epsilon
+0				 # 417 # encendido AlIII2669
+0				 # 418 # encendido CII 2326
+0				 # 419 # encendido Mg2A BC
+0				 # 420 # encendido OIII2672
+0				 # 421 # encendido OII3133
+1				 # 422 # encendido HeII 4685 BC
+0				 # 423 # encendido hei3188 BC
+0				 # 424 # encendido hei3588 BC
+0				 # 425 # encendido hei3889 BC
+1				 # 426 # encendido hei5875 BC
+1				 # 427 # encendido hei4472 BC
+1				 # 428 # encendido hei7067 BC
+1				 # 429 # encendido OIII 5007 NC
+1				 # 430 # encendido Hb NC
+1				 # 431 # encendido HeII 4685 NC
+1				 # 432 # encendido OIII 4363
+1				 # 433 # encendido NI 5200
+0				 # 434 # encendido NeIV 2423
+0				 # 435 # encendido OII 2471
+0				 # 436 # encendido NeV 3346
+0				 # 437 # encendido OII 3728
+0				 # 438 # encendido NeIII 3968
+0				 # 439 # encendido NeIII 3869
+1				 # 440 # encendido FeV 4072
+1				 # 441 # encendido SiII 4073
+1				 # 442 # encendido Hgamma NC
+1				 # 443 # encendido Hdelta NC
+0				 # 444 # encendido NeV 3426
+0				 # 445 # encendido FeVII 3587
+0				 # 446 # encendido FEVII 3759
+1				 # 447 # encendido FeVII5160
+1				 # 448 # encendido FeVI 5177
+1				 # 449 # encendido FeXI 7894
+1				 # 450 # encendido FeVII 6086
+1				 # 451 # encendido Ha BC
+1				 # 452 # encendido Ha NC
+1				 # 453 # encendido SII 6718
+1				 # 454 # encendido SII 6732
+1				 # 455 # encendido OI 6302
+1				 # 456 # encendido NII 6365
+1				 # 457 # encendido NiIII 7892
+1				 # 458 # encendido ArIII 7138
+1				 # 459 # encendido OIII 7321 
+1				 # 460 # encendido Hb extra
+1				 # 461 # encendido MgII extra
+1				 # 462 # encendido OIII extra SB
+1				 # 463 # encendido Ha extra
+1				 # 464 # encendido SII 6718 extra
+1				 # 465 # encendido SII 3732 extr
+800.                             # 466 # optical fe2 width (smear velocity)
+10.                              # 467 # coef optical fe2 width
+t12d.dat                         # 468 # stellar continuum file
+2916				 # 469 # size stellar continuum file
+0.5				 # 470 # flux stellar continuum 
+0.05				 # 471 # coef stellar continuum 
+1300.                            # 472 # stellar width (smear velocity)
+150.                             # 473 # coef stellar width
+3934.77                          # 474 # reference absorption line
+1				 # 475 # encendido stellar continuum
+1				 # 476 # encendido broken_powerlaw
+5100.1				 # 477 # reference wave for powerlaw
+1.00000000                       # 478 # Flux normalization factor
